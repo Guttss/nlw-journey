@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS 'trips'(
     status INTEGER -- 1 para verdadeiro (true), 0 para falso
 );
 
-CREATE TABLE IF NOT EXISTS 'email_to_invite'(
+CREATE TABLE IF NOT EXISTS 'emails_to_invite'(
     id TEXT PRIMARY KEY,
     trip_id TEXT,
     email TEXT NOT NULL,
